@@ -39,6 +39,22 @@ Los 8 laboratorios están diseñados para construir, pieza a pieza, las capacida
 | **L8** | **Imágenes como Datos**   | Imágenes y señales            | DICOM + Matplotlib        |
 | **L9** | **Predicción Clínica**    | Machine Learning   | Scikit-learn |
 | **L10** | **Visual Analytics**      | Toma de Decisiones | Grafana Dashboard         |
+Los laboratorios están diseñados para construir, pieza a pieza, las capacidades necesarias para el proyecto final.
+
+| Lab      | Título                        | Competencia              | Herramienta Clave          |
+| :------- | :---------------------------- | :----------------------- | :------------------------- |
+| **L0**   | **Setup del Entorno**         | Gobernanza               | Docker + Git               |
+| **L1**   | **Captura en el EHR**         | Modelos de Datos         | PostgreSQL (Mini-MIMIC)    |
+| **L1.1** | **Veracidad de los datos**    | Auditoría de Calidad     | PostgreSQL                 |
+| **L2**   | **Terminología y Semántica**  | Estándares Clínicos      | ICD-10, SNOMED CT, LOINC   |
+| **L3**   | **Interoperabilidad FHIR**    | Interoperabilidad        | FHIR R4, Python            |
+| **L3.1** | **Datos Sintéticos**          | Datos Sintéticos en Salud| Synthea, Python            |
+| **L4**   | **Curación de Datos RWD**     | Preparación              | Python + Pandas            |
+| **L5**   | **EDA Clínico**               | Estadística clínica      | Seaborn + Matplotlib       |
+| **L6**   | **Modelado Estadístico**      | Modelado estadístico     | Statsmodels + Scikit-learn |
+| **L7**   | **Imágenes como Datos**       | Imágenes y señales       | DICOM + Matplotlib         |
+| **L8**   | **Predicción Clínica**        | Machine Learning         | Scikit-learn               |
+| **L9**   | **Visual Analytics**          | Toma de Decisiones       | Grafana Dashboard          |
 
 ---
 
@@ -53,7 +69,7 @@ Este repositorio sigue una metodología de **Aprendizaje basado en proyectos e i
 
 ## 📂 Estructura del Repositorio
 
-- `/labs`: Enunciados y archivos base para las 8 prácticas.
+- `/labs`: Enunciados y archivos base para las prácticas del curso.
 - `/resources`: Lecturas complementarias de _Fundamentals of Clinical Data Science_ y _Machine Learning in Medicine_.
 - `/project-template`: Estructura sugerida para el producto de datos final (40% de la nota).
 
